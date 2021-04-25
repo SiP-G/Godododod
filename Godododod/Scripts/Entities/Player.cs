@@ -11,7 +11,7 @@ namespace Godododod.Entities
         public Player()
         {
             Data.Sprite.Texture = ImageLoader.LoadTexture("res://Sprites/Entities/Player/Player.png", true);
-            Data.InitBody(3, hFrames: 4, offsetPos: new Vector2(0, -16));
+            Data.InitBody(4, hFrames: 3, offsetPos: new Vector2(0, -16));
             Data.InitCollider(3.5f, 3);
 
             _Camera = new Camera2D();
